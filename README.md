@@ -19,7 +19,7 @@
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-  The neural network model has 2 hidden layers, 80 neurons for the first layer, and 30 neurons for the second layer. 
+  The neural network model has 2 hidden layers, 80 neurons for the 1st layer, and 30 neurons for the 2nd layer. 
     * Generally, many complex interactions can be characteried by 2-3 hidden layers, so 2 layers is a reasonable choice to start for the model. 
     * Also, since 80 is about double amount of the 43 input features, and 30 is about 2/3 of the input features, that meets the rule of thumb for the amount of neurons. 
     * I use ReLU activation function to identify nonlinear characteristics from the input values, and use sigmoid activation function for the output layer to predict the probability.
