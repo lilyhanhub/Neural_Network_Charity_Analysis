@@ -5,22 +5,27 @@
 ## Results
 ### Data Preprocessing
 * What variable(s) are considered the target(s) for your model?
+
   "IS_SUCCESSFUL" is the target variable for my model because it indicates if the money was used effectively. 
 
 * What variable(s) are considered to be the features for your model?
+
   "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", "STATUS", "INCOME_AMT", "SPECIAL_CONSIDERATIONS", "ASK_AMT". The nine variables are the features for the model.
 
 * What variable(s) are neither targets nor features, and should be removed from the input data?
+
   "EIN" and "NAME" are two variables neither targets nor features, and should be removed from the input data. 
 
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
   The neural network model has 2 hidden layers, 80 neurons for the first layer, and 30 neurons for the second layer. 
     * Generally, many complex interactions can be characteried by 2-3 hidden layers, so 2 layers is a reasonable choice to start for the model. 
     * Also, since 80 is about double amount of the 43 input features, and 30 is about 2/3 of the input features, that meets the rule of thumb for the amount of neurons. 
     * I use ReLU activation function to identify nonlinear characteristics from the input values, and use sigmoid activation function for the output layer to predict the probability.
 
 * Were you able to achieve the target model performance?
+
   No, my three optimization attempts acheived the predictive accuracy at 72.49%, 72.57%, 72.62%, respectively, all of which are below the target model performance of 75%.
 
 * What steps did you take to try and increase model performance? 
