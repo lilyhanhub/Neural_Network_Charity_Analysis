@@ -1,5 +1,5 @@
 # Neural_Network_Charity_Analysis
-## Overview of the Analysis:
+## Overview of the Analysis
   Alphabet Soup is a nonprofit fundation offering research funds for more than 34,000 organizations. The purpose of this project is to design and train the deep machine learning and neural network models using the Python TensorFlow library to test and optimize the models, and to predict whether applicants will be successful if funded by Alphabet Soup. So the models will help Alphabet Soup to determine which organizations should receive donations.
 
 ## Results
