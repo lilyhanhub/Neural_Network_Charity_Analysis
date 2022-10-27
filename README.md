@@ -8,7 +8,7 @@
 "IS_SUCCESSFUL" is the target variable for my model because it indicates if the money was used effectively. 
 
 * What variable(s) are considered to be the features for your model?
-"APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", "STATUS", "INCOME_AMT","SPECIAL_CONSIDERATIONS", "ASK_AMT". The nine variables are the features for the model.
+"APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", "STATUS", "INCOME_AMT", "SPECIAL_CONSIDERATIONS", "ASK_AMT". The nine variables are the features for the model.
 
 What variable(s) are neither targets nor features, and should be removed from the input data?
 "EIN" and "NAME" are two variables neither targets nor features, and should be removed from the input data. 
